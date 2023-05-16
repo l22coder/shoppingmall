@@ -105,14 +105,29 @@ ul {
 
 #main article.one {
   background-color: #532fa1;
+  transition: background-color 0.3s;
 }
 
 #main article.two {
   background-color: #a44789;
+  transition: background-color 0.3s;
 }
 
 #main article.three {
   background-color: #3ab6bc;
+  transition: background-color 0.3s;
+}
+
+#main article.one:hover {
+  background-color: #8683bd;
+}
+
+#main article.two:hover {
+  background-color: #bf7eac;
+}
+
+#main article.three:hover {
+  background-color: #75ccd0;
 }
 
 #main article img {
